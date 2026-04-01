@@ -2,16 +2,14 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <span>S7AR Docs</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/7mcmaster7gmail/documentation-starter-kit',
   },
-  chat: {
-    link: 'https://discord.com',
-  },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/7mcmaster7gmail/documentation-starter-kit/tree/main',
   footer: {
-    text: 'Nextra Docs Template',
+    // 这样写会带上年份和版权符号，看起来更正式
+    text: `© ${new Date().getFullYear()} S7AR Docs.`,
   },
 }
 
